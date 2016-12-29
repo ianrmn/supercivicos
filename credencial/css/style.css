@@ -1,0 +1,178 @@
+.isi {
+  margin: 3px 0px 7px 0px;
+}
+.input {
+  margin-top: 5px;
+}
+body {
+	margin: 0;
+	padding: 0;
+	color: #FFF;
+	background: #000;
+	font-family: Roboto, sans-serif;
+}
+#contentSuper {
+	width: 100%;
+	max-width: 1200px;
+	margin: 0 auto;
+}
+#contentSuper .left {
+	width: 45%;
+	float: left;
+	padding: 0 3%;
+}
+#contentSuper .right {
+	width: 40%;
+	float: right;
+	padding: 0 3%;
+}
+#contentSuper .right {
+	padding-top: 230px;
+}
+input {
+	outline: none;
+	padding: 5px;
+}
+.inpt {
+	width: 250px;
+}
+h2 {
+	margin-bottom: 0;
+}
+.btnSend {
+	background: #fc131b!important;
+	color: #FFF;
+	border: 0;
+	font-size: 16px;
+	padding: 8px 20px;
+	cursor: pointer;
+	-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px;
+}
+.logo {
+	background: url('../img/logo.jpg') no-repeat;
+	width: 590px;
+	height: 190px;
+	display: block;
+}
+td #title {
+	background: #fff;
+    width: 100%;
+    height: 30px;
+}
+
+/* ++++++++++++++ mobile ++++++++++++++ */
+
+@media only screen and (min-device-width: 0px) and (max-device-width: 850px) {
+	#contentSuper .left, #contentSuper .right {
+		width: 90%;
+		padding: 0 5%;
+		margin: 0 auto;
+	}
+	#contentSuper .right {
+		float: left;
+		margin: 30px auto;
+	}
+	p {
+		font-size: 1.3em;
+	}
+	h2 {
+		font-size: 2em;
+	}
+	#tble_form {
+		width: 100%;
+	}
+	table tr td {
+		font-size: 2em!important;
+	}
+	input {
+		width: 100%;
+		font-size: 1em;
+	}
+	.inpt {
+		width: 100%;
+		padding: 20px;
+	}
+	td #title {
+	    background: #fff;
+	    width: 100%;
+	    height: 80px;
+	    font-size: 1em;
+    }
+    #upimg {
+	    font-size: 1em;
+	    height: 80px;
+	    vertical-align: middle;
+	    display: block;
+    }
+		label.myLabel input[type="file"] {
+		    position: fixed;
+		    top: -1000px;
+		}
+		
+		/***** Example custom styling *****/
+		.myLabel {
+		    border: 0px solid #AAA;
+		    border-radius: 4px;
+		    padding: 20px;
+		    margin: 2px;
+		    background: #DDD;
+		    display: inline-block;
+		}
+		.myLabel:hover {
+		    background: #CCC;
+		}
+		.myLabel:active {
+		    background: #CCF;
+		}
+		.myLabel :invalid + span {
+		    color: #000;
+		}
+		.myLabel :valid + span {
+		    color: #000;
+		}
+	.stn, .btnSend {
+		width: 100%!important;
+	}
+	.btnSend {
+		padding: 20px 0!important;
+		-webkit-appearance: none;
+		border-radius: 0;
+		font-size: 3em;
+	}
+}
+@media only screen and (min-device-width: 0px) and (max-device-width: 575px) {
+	.logo {
+		width: 100%;
+	    height: 250px;
+	    display: block;
+	    background-size: contain;
+	}
+}
+
+/* ++++++++++++++ desktop ++++++++++++++ */
+
+@media only screen and (min-width: 0px) and (max-width: 850px) {
+	#contentSuper .left, #contentSuper .right {
+		width: 80%;
+		padding: 0 5%;
+		margin: 0 auto;
+	}
+	#contentSuper .right {
+		float: left;
+		margin: 30px auto;
+	}
+}
+@media only screen and (min-width: 0px) and (max-width: 575px) {
+	.logo {
+		width: 100%;
+	    height: 130px;
+	    display: block;
+	    background-size: contain;
+	}
+}
+
+@media screen and (max-width: 600px) and (max-width: 600px) {
+  .facet_sidebar {
+    display: none;
+  }
+}
